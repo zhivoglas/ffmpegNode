@@ -1,9 +1,9 @@
-<p align="center">
-  <img src="https://github.com" width="900" alt="ffmpegNode Stream Interface">
-</p>
-
 # ffmpegNode Stream 🚀
 **The Universal Visual Logic Engine for Media & Beyond**
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/dcce90d0-7dfb-40e7-863d-e1f3fd81ca9c" width="850" alt="ffmpegNode Stream Interface">
+</p>
 
 **ffmpegNode Stream** — это модульный, независимый от движка оркестратор для обработки медиа. Он превращает сложный код и логику CLI в интуитивно понятный **визуальный граф узлов**. Создан для творцов, разработчиков и опытных пользователей, которые ценят мощь и эстетику.
 
