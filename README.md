@@ -1,3 +1,4 @@
+<img width="1835" height="997" alt="Screen" src="https://github.com/user-attachments/assets/7b1276a5-0ebf-48a9-ba89-e5cbc451c4ca" />
 # ffmpegNode Stream 🚀
 **The Universal Visual Logic Engine for Media & Beyond**
 
