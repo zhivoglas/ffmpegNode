@@ -1,4 +1,4 @@
-# FFNode Stream 🚀
+# ffmpegNode Stream 🚀
 **The Universal Visual Logic Engine for Media & Beyond**
 
 **FFNode Stream** is a modular, engine-agnostic orchestrator for media processing. It transforms complex code and CLI logic into an intuitive **visual node graph**. Built for creators, developers, and power users who value both power and aesthetics.
