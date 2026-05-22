@@ -5,21 +5,21 @@
   <img src="https://github.com/user-attachments/assets/dcce90d0-7dfb-40e7-863d-e1f3fd81ca9c" width="850" alt="ffmpegNode Stream Interface">
 </p>
 
-**ffmpegNode Stream** — это модульный, независимый от движка оркестратор для обработки медиа. Он превращает сложный код и логику CLI в интуитивно понятный **визуальный граф узлов**. Создан для творцов, разработчиков и опытных пользователей, которые ценят мощь и эстетику.
+**ffmpegNode Stream** is a modular, engine-agnostic orchestrator for media processing. It transforms complex code and CLI logic into an intuitive **visual node graph**. Built for creators, developers, and power users who value both power and aesthetics.
 
 ---
 
 ### 🎨 Visual & Immersive Experience
-Мы верим, что профессиональные инструменты не должны быть скучными.
-*   **🌌 Animated Workspaces:** Выбирайте из множества потрясающих анимированных фонов, чтобы вдохновение не покидало вас.
-*   **🤝 Sponsorship Hub:** В интерфейсе выделены специальные места для отображения **Спонсоров и Меценатов** — прямо в заголовке и на фонах приложения.
-*   **💎 Modern UI:** Гладкий и высокопроизводительный интерфейс на базе React 19, Vite и Framer Motion.
+Professional tools shouldn't be boring. We've focused on creating an environment that inspires:
+*   **🌌 Animated Workspaces:** Choose from stunning animated backgrounds to keep your creative flow inspired.
+*   **🤝 Sponsorship Hub:** Dedicated UI slots to showcase **Sponsors and Patrons** directly in the app header and workspace.
+*   **💎 Modern UI:** High-performance interface built with React 19, Vite, and Framer Motion.
 
 ### 🧩 Engine-Agnostic Architecture
-Проект построен по модели **"Plugin-Worker"**. Хотя в него глубоко интегрирован FFmpeg, ядро может принять **любой движок**:
-*   **Multi-Engine Support:** Запускайте FFmpeg, OpenCV, AI Upscalers или кастомные скрипты в одной цепочке.
-*   **Manifest-Driven UI:** Ноды и элементы управления создаются автоматически на основе простого `manifest.json`.
-*   **Modular Backend:** Расширяйте возможности, просто добавляя папку в директорию `/plugins`.
+FFNode Stream is more than just a GUI. Its **"Plugin-Worker"** model allows it to host **any processing engine**:
+*   **Multi-Engine Support:** Seamlessly integrate FFmpeg, OpenCV, AI Upscalers, or Custom Python Scripts.
+*   **Manifest-Driven UI:** Controls and nodes are automatically generated based on a simple `manifest.json`.
+*   **Modular Backend:** Expand your capabilities by simply dropping a folder into the `/plugins` directory.
 
 ---
 
@@ -28,33 +28,32 @@
 #### 1. Prerequisites
 *   **Node.js** (v18.0.0+)
 *   **Python** (v3.10+)
-*   **FFmpeg** (Рекомендуется для стандартных плагинов)
+*   **FFmpeg** (Recommended for default media plugins)
 
 #### 2. Installation
 ```bash
-# Клонируйте репозиторий
+# Clone the repository
 git clone https://github.com
 cd ffmpegNode
 
-# Настройка фронтенда
+# Setup Frontend
 cd frontend
 npm install
 ```
 
-#### 3. Launching the App (Выберите вариант)
+#### 3. Launching the App (Choose an Option)
 
-**🔵 Option A: The Fast Way (Рекомендуется)**
-*Запуск интерфейса и окна Electron одной командой:*
+**🔵 Option A: The Fast Way (Recommended)**
 ```bash
-# В папке /frontend
+# In /frontend folder
 npm run start
 ```
-*Затем запустите движок логики (в отдельном терминале из корня проекта):*
+*Then, start the backend in a separate terminal:*
 ```bash
 python main.py
 ```
 
-**🟣 Option B: Manual Control (Для разработчиков)**
+**🟣 Option B: Manual Control (For Developers)**
 1. **Start Vite:** `cd frontend && npm run dev`
 2. **Start Electron:** `cd frontend && npm run electron`
 3. **Start Backend:** `python main.py`
@@ -62,15 +61,18 @@ python main.py
 ---
 
 ### ❤️ Support & Acknowledgments
-**ffmpegNode Stream** — это открытый проект, созданный с любовью. Мы предлагаем приоритетное размещение логотипов спонсоров внутри UI приложения.
+FFNode Stream is an open-source labor of love by [Zhivoglas Digital Production](https://zhivoglas.com/). 
 
 > **Special Acknowledgement:**
-> *Я хотел бы выразить искреннюю благодарность и уважение разработчикам ИИ, который помогал мне в создании этого проекта. Спасибо за создание такого мощного и полезного помощника — ваш труд делает невозможное возможным.*
+> *I would like to express my sincere gratitude and respect to the developers of the AI that assisted me in creating this project. Thank you for building such a powerful and helpful collaborator — your work makes the impossible possible.*
 >
-> *Отдельная благодарность разработчикам Microsoft, Google, FFmpeg и всем, кто прямо или косвенно помог реализовать этот проект. Слава Богу за таланты и возможность творить во благо!*
+> *Special thanks to the developers at Microsoft, Google, FFmpeg, and everyone who directly or indirectly helped realize this project. Thank God for the talent and the opportunity to create for the greater good!*
 
 ---
+**Official Website:** [zhivoglas.com](https://zhivoglas.com/)
 
 ### 📜 License
 This project is licensed under the **MIT License**.
+*FFmpeg is a trademark of Fabrice Bellard.*
+
 *FFmpeg is a trademark of Fabrice Bellard. This project is not affiliated with the FFmpeg team.*
