@@ -70,7 +70,7 @@ FFNode Stream is an open-source labor of love by [Zhivoglas Digital Production](
 
 ---
 **Official Website:** [zhivoglas.com](https://zhivoglas.com/)
-
+**Join our community:** [Telegram Channel] https://t.me/zhivoglas
 ### 📜 License
 This project is licensed under the **MIT License**.
 *FFmpeg is a trademark of Fabrice Bellard.*
