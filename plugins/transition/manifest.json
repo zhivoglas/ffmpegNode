@@ -1,0 +1,35 @@
+{
+  "id": "transition",
+  "type": "transition",
+  "name": "Video Transition",
+  "category": "video",
+  "inputs": [
+    { "id": "video_a", "label": "First Clip (A)", "type": "video" },
+    { "id": "video_b", "label": "Second Clip (B)", "type": "video" }
+  ],
+  "outputs": [
+    { "id": "output", "label": "Transition Out", "type": "video" }
+  ],
+  "params": {
+    "transition_type": "fade",
+    "duration": 1.0,
+    "offset": 2.0,
+    "video_a_duration": null,
+    "smart_normalize": true,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30
+  },
+  "options": {
+    "transition_type": [
+      "fade", "wipeleft", "wiperight", "wipeup", "wipedown", 
+      "slideleft", "slideright", "slideup", "slidedown", 
+      "circlecrop", "rectcrop", "distance", "fadeblack", 
+      "fadewhite", "radial", "smoothleft", "smoothright", 
+      "smoothup", "smoothdown", "circleopen", "circleclose", 
+      "vertopen", "vertclose", "horzopen", "horzclose", 
+      "dissolve", "pixelize", "diagtl", "diagtr", "diagbl", 
+      "diagbr", "hlslice", "hrslice", "vuslice", "vdslice"
+    ]
+  }
+}

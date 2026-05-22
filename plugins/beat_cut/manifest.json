@@ -1,0 +1,59 @@
+{
+  "id": "beat_cut",
+  "type": "node",
+  "name": "Beat Cut",
+  "category": "composition",
+  "inputs": [
+    {
+      "id": "audio",
+      "label": "Music (Audio)",
+      "type": "audio",
+      "multiple": false,
+      "description": "Аудио трек для нарезки"
+    },
+    {
+      "id": "video_a",
+      "label": "Video A",
+      "type": "video",
+      "multiple": false
+    },
+    {
+      "id": "video_b",
+      "label": "Video B",
+      "type": "video",
+      "multiple": false
+    },
+    {
+      "id": "video_c",
+      "label": "Video C",
+      "type": "video",
+      "multiple": false
+    },
+    {
+      "id": "video_d",
+      "label": "Video D",
+      "type": "video",
+      "multiple": false
+    },
+    {
+      "id": "video_e",
+      "label": "Video E",
+      "type": "video",
+      "multiple": false
+    }
+  ],
+  "outputs": [
+    {
+      "id": "output",
+      "label": "Video Out",
+      "type": "video"
+    }
+  ],
+  "params": {
+    "offset_ms": 0,
+    "output_width": 1920,
+    "output_height": 1080,
+    "output_fps": 30,
+    "smart_crop": true
+  }
+}

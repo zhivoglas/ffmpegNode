@@ -1,0 +1,17 @@
+{
+  "id": "merge",
+  "type": "merge",
+  "name": "Merge Clips",
+  "category": "video",
+  "inputs": [
+    { "id": "video_a", "label": "Background (A)", "type": "video" },
+    { "id": "video_b", "label": "Foreground (B)", "type": "video" }
+  ],
+  "outputs": [
+    { "id": "output", "label": "Merged Out", "type": "video" }
+  ],
+"params": {
+    "mode": "sequential",
+    "smart_normalize": true 
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "batch_input",
+  "type": "batch_input",
+  "name": "batch input",
+  "category": "add file",
+  "inputs": [],
+  "outputs": [
+    { "id": "output", "label": "Video Out", "type": "video" }
+  ],
+  "params": {
+    "dir_path": "",
+    "extensions": ".mp4,.mkv,.mov,.avi"
+  }
+}

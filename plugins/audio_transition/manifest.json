@@ -1,0 +1,50 @@
+{
+  "id": "audio_transition",
+  "type": "transition",
+  "name": "Audio Transition & Glitch",
+  "category": "audio",
+  "inputs": [
+    { "id": "video_a", "label": "First Clip (A)", "type": "video" },
+    { "id": "video_b", "label": "Second Clip (B)", "type": "video" }
+  ],
+  "outputs": [
+    { "id": "output", "label": "Transition Out", "type": "video" }
+  ],
+  "params": {
+    "transition_type": "crossfade",
+    "duration": 1.0,
+    "offset": 5.0,
+    "curve_c1": "tri",
+    "curve_c2": "tri",
+    "glitch_bits": 3,
+    "stutter_hz": 15,
+    "wobble_hz": 4.0,
+    "smart_normalize": true,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30
+  },
+  "options": {
+    "transition_type": [
+      "crossfade", 
+      "glitch_bitcrush", 
+      "glitch_stutter", 
+      "complex_glitch",
+      "radio_effect",
+      "underwater",
+      "wobble",
+      "overdrive",
+      "hard_cut",
+      "tape_rewind",
+      "tape_chewed",
+      "digital_noise",
+      "white_noise"
+    ],
+    "curve_c1": [
+      "tri", "qsin", "hsin", "exp", "log", "squ", "cub", "ipar", "qua"
+    ],
+    "curve_c2": [
+      "tri", "qsin", "hsin", "exp", "log", "squ", "cub", "ipar", "qua"
+    ]
+  }
+}

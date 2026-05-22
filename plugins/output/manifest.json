@@ -1,0 +1,22 @@
+{
+  "id": "output",
+  "type": "output",
+  "name": "Export File",
+  "category": "export",
+  "inputs": [
+    {
+      "id": "input",
+      "label": "Final Video",
+      "type": "video"
+    }
+  ],
+  "outputs": [],
+  "params": {
+    "file_path": "output.mp4",
+    "format": "mp4",
+    "vcodec": "libx264",
+    "acodec": "aac",
+    "bitrate": "5M"
+  }
+}
+

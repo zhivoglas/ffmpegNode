@@ -1,0 +1,11 @@
+{
+  "type": "engine",
+  "id": "ffmpeg",
+  "name": "ffmpeg",
+  "label": "FFmpeg Engine",
+  "params": {
+    "use_gpu": false,
+    "threads": 0,
+    "hwaccel": "auto"
+  }
+}

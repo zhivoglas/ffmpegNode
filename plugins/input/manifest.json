@@ -1,0 +1,13 @@
+{
+  "id": "input",
+  "type": "input",
+  "name": "single file",
+  "category": "add file",
+  "inputs": [],
+  "outputs": [
+    { "id": "output", "label": "Video Out", "type": "video" }
+  ],
+  "params": {
+    "file_path": ""
+  }
+}
